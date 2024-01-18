@@ -18,7 +18,7 @@ spec:
         - containerPort: 80
         resources:
           limits:
-            cpu: 500m
+            cpu: 400m
           requests:
             cpu: 200m
 ---
@@ -43,7 +43,7 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: php-apache
-  minReplicas: 1
+  minReplicas: 2
   maxReplicas: 3
   metrics:
   - type: Resource
