@@ -18,7 +18,7 @@ spec:
         image: fabxc/instrumented_app
         ports:
         - name: web
-          containerPort: 8080
+          containerPort: 8080ljljl
 ---
 kind: Service
 apiVersion: v1
